@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-9">
+    <meta name="viewport" content="width=device-width, intiale-scale=1.0">
+    <title>freeCodeCamp Project no 3| Product landing page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="[url=https://cdnlogo.com/logo/svelte_110375.html][img]https://www.cdnlogo.com/logos/s/6/svelte.svg[/img][/url]">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+        <header id="header">
+            <div id="logo">
+                <img src="https://www.cdnlogo.com/logos/s/6/svelte.svg" id="header-img" width="50px" height="50px">
+                <h2>Super Cell</h2>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href=#About-Us>About Us</a></li>
+                    <li><a class="nav-link" href=#Guid>How it works</a></li>
+                    <li><a class="nav-link" href=#Plane>Plane</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div id="hero">
+            <h2 class="primary-heading-text">Get notifyed for the best deals</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your mail">
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+
+
+
+
+        <main>
+            <section id="About-Us" class="content-section">
+                <div class="heading">
+                    <h2 class="secondary-heading-text">Who we are?</h2>
+                    <p id="about-us-text" class="primary-pera-text">Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ducimus, delectus. Non iste molestias asperiores exercitationem, facilis ratione iusto et?
+                        Quae a explicabo tenetur quos minima! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nemo modi sunt debitis, corrupti quia vero culpa fuga quaerat explicabo totam consequatur,
+                        doloremque reprehenderit! Doloremque, atque? Ratione quia natus quos iusto, rem culpa hic dicta?
+                    </p>
+
+                </div>
+                <div class="content">
+                    <h2 class="secondary-heading-text">Why to choose us</h2>
+                    <div class="items">
+                        <div class="box">
+                            <div class="box-logo"><i class="fa-solid fa-truck-fast fa-2xl" style="color: #f4a22f; scale: 1.6;"></i>
+                            </div>
+                            <h3 class="primary-info-text">Fast Delivery</h3>
+                            <p class="secondary-pera-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iure, at aperiam ullam,
+                                voluptatum reiciendis itaque porro eveniet quia beatae delectus amet, voluptas earum.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <div class="box-logo"><i class="fa-solid fa-fire-flame-curved fa-2xl"
+                                    style="color: #f4a22f; scale: 1.6;"></i></div>
+                            <h3 class="primary-info-text">Quality Product</h3>
+                            <p class="secondary-pera-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam amet error quae!</p>
+                        </div>
+                        <div class="box">
+                            <div class="box-logo"><i class="fa-solid fa-clock fa-2xl" style="color: #f4a22f; scale: 1.6;"></i></div>
+                            <h3 class="primary-info-text">24x7 Customer Support</h3>
+                            <p class="secondary-pera-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cupiditate dolore quod
+                                nobis
+                                dolores esse deserunt iure animi!</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="Guid" class="content-section">
+                <div class="heading">
+                    <h2 class="secondary-heading-text">Check out our product review on youtube</h2>
+                </div>
+                <div id="ifram-container">
+                    <iframe id="video" src="https://www.youtube.com/embed/y9b2vxjP0po?si=q-lAiUk1gU1NqAnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/Z5bylD3Yw-U?si=LlEgBDr5HCQA93Cf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/uLwFYPsS_Zc?si=fw01uYnEGIBFZ4Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
+            </section>
+            <section id="Plane" class="content-section">
+                <div class="heading">
+                    <h2 class="secondary-heading-text">Membership</h2>
+                </div>
+                <div class="items">
+                    <div class="box">
+                        <h4 class="primary-product-title">Basic</h4>
+                        <h3 class="primary-info-text">$25/month</h3>
+                        <p class="secondary-pera-text">Lorem ipsum dolor</p>
+                        <p class="secondary-pera-text">Lorem ipsum.</p>
+                        <p class="secondary-pera-text">Lorem ipsum.</p>
+                        <button>Select</button>
+                    </div>
+                    <div class="box">
+                        <h4 class="primary-product-title">Economic</h4>
+                        <h3 class="primary-info-text">$120/month</h3>
+                        <p class="secondary-pera-text">Lorem ipsum dolor sit</p>
+                        <p class="secondary-pera-text">Lorem ipsum dolor</p>
+                        <p class="secondary-pera-text">Lorem ipsum</p>
+                        <button>Select</button>
+                    </div>
+                    <div class="box">
+                        <h4 class="primary-product-title">Pro</h4>
+                        <h3 class="primary-info-text">$650/month</h3>
+                        <p class="secondary-pera-text">Lorem ipsum dolor sit</p>
+                        <p class="secondary-pera-text">Lorem ipsum dolor</p>
+                        <p class="secondary-pera-text">Lorem ipsum dolor sit</p>
+                        <button>Select</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <p>Copyright 2023|| @suppercell all right reserved</p>
+            </footer>
+    </main>
+    
+
+</body>
+
+</html>
